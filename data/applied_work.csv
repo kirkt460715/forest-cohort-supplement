@@ -1,0 +1,4 @@
+work_id,stand_id,position_id,batch_id,window,crew_days,status
+AW-1,F-01,Z-05,B-12,2025秋,3,已完成
+AW-2,F-01,Z-06,B-12,2026春,2,已开始
+AW-3,F-02,Z-09,B-14,2026秋,3,计划

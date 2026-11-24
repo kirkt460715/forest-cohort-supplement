@@ -1,9 +1,81 @@
 {
   "description": "林分栽植批次、调查和养护的本地合成演练资料",
   "sources": {
-    "stands.csv": ["stand_id", "county", "area_ha", "forest_type", "stage"],
-    "planting.csv": ["batch_id", "stand_id", "species", "planting_year", "seedling_source"],
-    "surveys.csv": ["survey_id", "stand_id", "sample_id", "year", "survival_pct", "growth_cm", "method"],
-    "care.csv": ["care_id", "stand_id", "batch_id", "action", "date", "crew_days"]
+    "stands.csv": [
+      "stand_id",
+      "county",
+      "area_ha",
+      "forest_type",
+      "stage"
+    ],
+    "planting.csv": [
+      "batch_id",
+      "stand_id",
+      "species",
+      "planting_year",
+      "seedling_source"
+    ],
+    "surveys.csv": [
+      "survey_id",
+      "stand_id",
+      "sample_id",
+      "year",
+      "survival_pct",
+      "growth_cm",
+      "method"
+    ],
+    "care.csv": [
+      "care_id",
+      "stand_id",
+      "batch_id",
+      "action",
+      "date",
+      "crew_days"
+    ],
+    "sample_frames.csv": [
+      "frame_id",
+      "stand_id",
+      "version",
+      "valid_from",
+      "valid_to",
+      "area_mu",
+      "eligible_positions",
+      "sample_draws"
+    ],
+    "positions.csv": [
+      "position_id",
+      "frame_id",
+      "prior_position",
+      "batch_id",
+      "tree_birth",
+      "seen_at",
+      "observed_state",
+      "received_at"
+    ],
+    "seedling_stock.csv": [
+      "stock_id",
+      "batch_id",
+      "species",
+      "available",
+      "hold",
+      "window"
+    ],
+    "care_constraints.csv": [
+      "stand_id",
+      "window",
+      "crew_days",
+      "min_local_species_pct",
+      "contract_mature_months",
+      "cutoff_survival_pct"
+    ],
+    "applied_work.csv": [
+      "work_id",
+      "stand_id",
+      "position_id",
+      "batch_id",
+      "window",
+      "crew_days",
+      "status"
+    ]
   }
 }

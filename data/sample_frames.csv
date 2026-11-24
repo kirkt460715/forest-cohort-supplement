@@ -1,0 +1,5 @@
+frame_id,stand_id,version,valid_from,valid_to,area_mu,eligible_positions,sample_draws
+FR1,F-01,1,2023,2024,44,120,30
+FR2,F-01,2,2025,2026,38,96,31
+FR3,F-02,1,2023,2026,49,160,40
+FR4,F-03,1,2025,2026,42,140,35
