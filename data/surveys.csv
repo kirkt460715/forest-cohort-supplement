@@ -1,0 +1,5 @@
+survey_id,stand_id,sample_id,year,survival_pct,growth_cm,method
+S-21,F-01,P-1,2024,72,18,样方甲
+S-22,F-01,P-1,2025,68,23,样方甲
+S-23,F-02,P-8,2025,81,16,样方乙
+S-24,F-03,P-9,2025,75,12,样方丙

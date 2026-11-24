@@ -1,0 +1,9 @@
+{
+  "description": "林分栽植批次、调查和养护的本地合成演练资料",
+  "sources": {
+    "stands.csv": ["stand_id", "county", "area_ha", "forest_type", "stage"],
+    "planting.csv": ["batch_id", "stand_id", "species", "planting_year", "seedling_source"],
+    "surveys.csv": ["survey_id", "stand_id", "sample_id", "year", "survival_pct", "growth_cm", "method"],
+    "care.csv": ["care_id", "stand_id", "batch_id", "action", "date", "crew_days"]
+  }
+}
